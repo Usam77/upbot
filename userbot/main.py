@@ -66,7 +66,7 @@ UNAPPROVED_MSG = ("`Hey salam!` {mention}`! Qorxma, Bu bir botdur.\n\n`"
                   "`Xaiş sahibimin aktiv olmasını gözlə, o adətən PM'ləri təsdiqləyir.\n\n`"
                   "`Təşəkkürlər ❤️`")
 
-DB = connect("dtobrain.check")
+DB = connect("upbrain.check")
 CURSOR = DB.cursor()
 CURSOR.execute("""SELECT * FROM BRAIN1""")
 ALL_ROWS = CURSOR.fetchall()
@@ -76,7 +76,7 @@ INVALID_PH = '\nXƏTA: GirilƏN telefon nömrəsi keçərsizdir' \
 
 for i in ALL_ROWS:
     BRAIN_CHECKER.append(i[0])
-connect("dtobrain").close()
+connect("upbrain").close()
 
 def extractCommands(file):
     FileRead = open(file, 'r').read()
@@ -140,7 +140,7 @@ def extractCommands(file):
 try:
     bot.start()
     idim = bot.get_me().id
-    dtobl = requests.get('https://raw.githubusercontent.com/umudmmmdov1/DTOUserBot/master/dtox.json').json()
+    dtobl = requests.get('https://raw.githubusercontent.com/umudmmmdov1/repo/master/upx.json').json()
     if idim in dtobl:
         bot.disconnect()
 
