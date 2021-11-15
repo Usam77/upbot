@@ -97,7 +97,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 # Yenilənmə
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/umudmmmdov1/DTOUserBot.git")
+    "https://github.com/umudmmmdov1/repo.git")
 
 # Konsol
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -165,7 +165,7 @@ TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
 
 # Last.fm
-BIO_PREFIX = os.environ.get("BIO_PREFIX", "@DTOUserBot | ")
+BIO_PREFIX = os.environ.get("BIO_PREFIX", "@UseratorOT | ")
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
 
 LASTFM_API = os.environ.get("LASTFM_API", None)
@@ -202,7 +202,7 @@ PM_AUTO_BAN_LIMIT = int(os.environ.get("PM_AUTO_BAN_LIMIT", 4))
 SPOTIFY_DC = os.environ.get("SPOTIFY_DC", None)
 SPOTIFY_KEY = os.environ.get("SPOTIFY_KEY", None)
 
-PAKET_ISMI = os.environ.get("PAKET_ISMI", "@DTOUserBot Paketi")
+PAKET_ISMI = os.environ.get("PAKET_ISMI", "@UseratorOT Paketi")
 
 # Avto
 AVTO_Q = sb(os.environ.get("AVTO_Q", "True"))
