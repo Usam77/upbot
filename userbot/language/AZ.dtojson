@@ -33,9 +33,9 @@
             "DTO_PLUGIN_CAPTION": "`Bu` [U S Σ R Δ T O R](https://t.me/UseratorOT) `pluginidir.`"
         },
         
-        "__dto": {
+        "__up": {
             "NEED_PLUGIN": "**❗️Zəhmət olmasa düzgün bir** `U S Σ R Δ T O R` **modulu qeyd edin.**\n**ℹ️ Hansısa plugin haqqında məlumat lazımdırsa, əvvəlcə plugini yüklədiyinizdən əmin olun.**",
-            "NEED_MODULE": "`Modullar aşağıdadır ⬇️ \nİstifadəsi: .dto <modul adı>`"
+            "NEED_MODULE": "`Modullar aşağıdadır ⬇️ \nİstifadəsi: .up <modul adı>`"
         },
 
        "extra": {
