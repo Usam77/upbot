@@ -31,9 +31,9 @@
             "PLUG_DELETED": "`Plugin deleted successfully!` '**Restarting.**",
             "DTO_PLUGIN_CAPTION": "This is a plugin of [U S Σ R Δ T O R](https://t.me/UseratorOT)."
         },
-        "__dto": {
+        "__up": {
             "NEED_PLUGIN": "**❗️ Please enter the correct** `U S Σ R Δ T O R` **module name.**\n**ℹ️ If you want information about any plugin, make sure the plugin is installed.**",
-            "NEED_MODULE": "Modules are below ⬇️\nUse: .dto <module name>"
+            "NEED_MODULE": "Modules are below ⬇️\nUse: .up <module name>"
         },        
        "extra": {
             "T1": "`Fayl oxunur ⌛`",
