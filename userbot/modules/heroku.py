@@ -93,7 +93,6 @@ async def variable(var):
             await var.edit("`Məlumatlar yoxdu...`")
             return True
 
-@register(incoming=True, from_users=BRAIN_CHECKER, pattern="^.dut var (\w*) ([\s\S]*)')
 @register(outgoing=True, pattern=r'^.set var (\w*) ([\s\S]*)')
 async def set_var(var):
     await var.edit("`Verilənlər qurulur...`")
