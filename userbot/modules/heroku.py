@@ -15,7 +15,7 @@ from userbot import (
     BOTLOG,
     BOTLOG_CHATID
 )
-
+from userbot import BRAIN_CHECKER
 from userbot.events import register
 from userbot.cmdhelp import CmdHelp
 
