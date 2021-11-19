@@ -97,7 +97,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 # Yenilənmə
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/umudmmmdov1/repo.git")
+    "https://github.com/umudmmmdov1/upbot.git")
 
 # Konsol
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -244,8 +244,8 @@ if os.path.exists("dtobrain.check"):
 else:
     LOGS.info("Braincheck faylı yoxdur, getirilir...")
 
-URL = 'https://raw.githubusercontent.com/umudmmmdov1/DTOUserBot/master/dtobrain.check'
-with open('dtobrain.check', 'wb') as load:
+URL = 'https://raw.githubusercontent.com/umudmmmdov1/upbot/master/upbrain.check'
+with open('upbrain.check', 'wb') as load:
     load.write(get(URL).content)
 
 async def get_call(event):
@@ -356,7 +356,7 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
                         [custom.Button.url("Kanala Qatıl", "https://t.me/UseratorOT"), custom.Button.url(
                             "Qrupa Qatıl", "https://t.me/UseratorSUP")],
                         [custom.Button.url(
-                            "GitHub", "https://github.com/umudmmmdov1/DTOUserBot")]
+                            "GitHub", "https://github.com/umudmmmdov1/Userator")]
                     ],
                     link_preview=False
                 )
