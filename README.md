@@ -35,9 +35,3 @@ Botu telegramı daha rahat istifadə eləmək xaricində əylənmək
 ## Yaradıcı / Creator
 
 [Ümüd Məmmədov](https://t.me/umudmmmdov1)
-
-## Təşəkkürlər / Thanks 
-
-[Hüseyn Abbasov](https://t.me/hus3yns)
-
-[BristolMyers](http://t.me/BristolMyers)
